@@ -5,7 +5,10 @@
 }
 
 body {
+    background-image: url(/assets/img/cat.jpg);
     background-color: lightskyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .top-bar {
@@ -34,13 +37,7 @@ body {
     margin-bottom: 50px;
 }
 
-.photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 50px;
-}
+
 
 .left-bar {
     display: none;
@@ -63,7 +60,7 @@ body {
     }
 
     .icon-container {
-        padding-top: 10px;
+        padding-top: 80px;
     }
 
     .icon-box {
@@ -78,13 +75,6 @@ body {
     }
     .icon {
        width: inherit;
-    }
-
-    .photo {
-        width: 72%;
-        margin-left: 20%;
-        margin-right: 20%;
-        max-width: 573px;
     }
 
 }
@@ -124,10 +114,4 @@ body {
     .name, .job {
         margin-left: 10%;
     }
-
-    .photo {
-        width: 72%;
-        margin-left: 20%;
-    }
-
 }
