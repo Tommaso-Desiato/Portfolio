@@ -23,7 +23,7 @@ body {
 
 .name, .job {
     text-align: center;
-    color: white;
+    color: rgb(232, 210, 168);
 }
 
 .name {
@@ -80,10 +80,6 @@ body {
        width: inherit;
     }
 
-    .name, .job {
-     
-    }
-
     .photo {
         width: 72%;
         margin-left: 20%;
@@ -104,8 +100,7 @@ body {
         left: 0;
         top: 0;
         bottom: 0;
-        width: 14%;
-        
+        max-width: 10%;
     }
 
     .icon-container {
@@ -133,7 +128,6 @@ body {
     .photo {
         width: 72%;
         margin-left: 20%;
-
     }
 
 }
