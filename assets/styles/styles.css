@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.505);
+    color: rgb(232, 210, 168);
+    padding: 10px 0px;
+    margin-bottom: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.name, .job {
+    text-align: center;
+    color: white;
+}
+
+.name {
+    margin-bottom: 6px;
+}
+
+.job {
+    margin-bottom: 50px;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.left-bar {
+    display: none;
+}
+
+/*Per un approccio mobile first*/
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .top-bar {
+        visibility: hidden;
+    }
+
+    .left-bar{
+        display: inline-block;      
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 14%;
+        max-width: 108px;
+    }
+
+    .icon-container {
+        padding-top: 10px;
+    }
+
+    .icon-box {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 12px 0px;
+
+    }
+
+    .cat-paw {
+        margin-bottom: 50px;
+    }
+    .icon {
+       width: inherit;
+    }
+
+    .name, .job {
+     
+    }
+
+    .photo {
+        width: 72%;
+        margin-left: 20%;
+        margin-right: 20%;
+        max-width: 573px;
+    }
+
+}
+
+@media only screen and (min-width:992px) {
+    .top-bar {
+        visibility: hidden;
+    }
+
+    .left-bar{
+        display: inline-block;      
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 14%;
+        
+    }
+
+    .icon-container {
+        padding-top: 10px;
+    }
+
+    .icon-box {
+        width: 100%;
+        padding: 10px 10px;
+        margin: 12px 0px;
+
+    }
+
+    .cat-paw {
+        margin-bottom: 50px;
+    }
+    .icon {
+       width: inherit;
+    }
+
+    .name, .job {
+        margin-left: 10%;
+    }
+
+    .photo {
+        width: 72%;
+        margin-left: 20%;
+
+    }
+
+}
