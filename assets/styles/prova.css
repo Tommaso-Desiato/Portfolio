@@ -7,11 +7,22 @@
     body, html {
     height: 100%;
 }
+.header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.664);
+}
 
 .link-container {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    padding: 6px 0px;
 }
 
 .hero-image {
@@ -31,4 +42,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+.about-me-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 20px 0px;
+}
+
+.info-box {
+    display: flex;
+    border: 1px solid red;
+    margin-bottom: 6px;
+}
+.icon {
+    width: 16px;
+    margin-right: 6px;
 }
