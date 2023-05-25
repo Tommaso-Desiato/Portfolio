@@ -27,7 +27,7 @@
 
 .hero-image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/assets/img/schiavo.JPG);
+    url(/assets/img/atlante.JPG);
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,20 +43,19 @@
     transform: translate(-50%, -50%);
     color: white;
 }
-.about-me-container {
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid black;
-    margin-top: 10px;
-    padding: 20px 0px;
+
+.skill-header {
+    text-align: center;
+    margin: 12px 0px;
+    font-size: 18px;
 }
 
-.info-box {
+.skill-box {
     display: flex;
-    border: 1px solid red;
-    margin-bottom: 6px;
+    justify-content: space-around;
+    margin: 14px 0px;
 }
+
 .icon {
-    width: 16px;
-    margin-right: 6px;
+    width: 80px;
 }
