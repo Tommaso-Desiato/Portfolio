@@ -44,6 +44,16 @@
     color: white;
 }
 
+.hire-me-button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+}
+
 .skill-header {
     text-align: center;
     margin: 12px 0px;
@@ -58,4 +68,15 @@
 
 .icon {
     width: 80px;
+}
+
+.about-me {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.bio {
+    font-size: 16px;
+    margin: 20px 0px;
+    padding: 0px 25px;
 }
