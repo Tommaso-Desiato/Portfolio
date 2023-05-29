@@ -81,7 +81,7 @@
     font-size: 16px;
     margin: 20px 0px;
     padding: 0px 25px;
-    line-height: 1.3em;
+    line-height: 1.3rem;
 }
 
 footer {
@@ -90,8 +90,19 @@ footer {
     font-size: 14px;
     line-height: 1.1rem;
     padding: 8px 8px;
+    text-align: center;
 }
 
 .icon-attribution {
     color: white;
+}
+
+/*Responsive tablet breakpoints*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .paragraph {
+        width: 60%;
+        margin: 20px auto;
+        font-size: 18px;
+        line-height: 1.4rem;
+    }
 }
