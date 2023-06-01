@@ -15,7 +15,7 @@
   right: 0;
   background-color: rgba(0, 0, 0, 0.55);
   color: white;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.664);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.666);
 }
 
 /*Link nella header*/
@@ -41,6 +41,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    /*Per centrare la scritta*/
     transform: translate(-50%, -50%);
     color: white;
 }
@@ -68,16 +69,19 @@
     width: 80px;
 }
 
+/*Heading con linea e scritta al centro*/
 .h2-heading {
     width: 100%;
     text-align: center;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(0,0,0,0.1), black, rgba(0,0,0,0.1));
+    /*Per dividere la linea, inoltre se lo tolgo non si vede*/
     border-image-slice: 1;
     line-height: 0.1em;
     margin: 20px 0;
 }
 
+/*Questa è per la scritta centrale*/
 .h2-heading span {
     background: #fff;
     padding: 0 10px;
@@ -85,6 +89,7 @@
 }
 
 .paragraph {
+    text-align: center;
     font-size: 16px;
     margin: 20px 0px;
     padding: 0px 25px;
