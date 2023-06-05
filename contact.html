@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
-    <link rel="stylesheet" href="assets/styles/prova.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
@@ -40,8 +40,8 @@
   <body>
     <nav class="header">
       <ul class="link-container">
-        <li class="link">Home</li>
-        <li class="link">About</li>
+        <li class="link"><a href="index.html">Home</a></li>
+        <li class="link"><a href="index.html#about-me">About</a></li>
         <li class="link">Contact</li>
       </ul>
     </nav>
@@ -49,17 +49,41 @@
     <div class="hero-image-contact-page">
       <form id="contact-form">
         <input type="hidden" name="contact_number" />
-        <div>
-          <label>Name</label> <input class="input-box" type="text" name="user_name" required />
-        </div>
-        <div>
-          <label>Email</label> <input class="input-box" type="email" name="user_email" required />
-        </div>
-        <div>
-            <label>Message</label> <textarea name="message"></textarea>
-        </div>
+
+        <input
+          class="name-box"
+          type="text"
+          name="user_name"
+          placeholder="Name"
+          required
+        />
+
+        <input
+          class="email-box"
+          type="email"
+          name="user_email"
+          placeholder="Email"
+          required
+        />
+
+        <textarea name="message" placeholder="Message"></textarea>
+
         <input class="send-button" type="submit" value="Send" />
       </form>
     </div>
+
+    <footer>
+      <p>Author: Tommaso Desiato</p>
+      <p>
+        <a href="https://www.flaticon.com/free-icons/user" title="user icons"
+          >User icons created by Freepik - Flaticon</a
+        >
+      </p>
+      <p>
+        <a href="https://www.flaticon.com/free-icons/email" title="email icons"
+          >Email icons created by Tomas Knop - Flaticon</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
