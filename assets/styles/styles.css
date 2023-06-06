@@ -9,11 +9,13 @@
     height: 100%;
 }
 
+/*Per anchor link preciso*/
 #about-me {
     position: absolute;
     bottom: 38px;
 }
 
+/*Sticky header che appare sopra tutto*/
 .header {
   position: fixed;
   z-index: 2;
@@ -32,9 +34,15 @@
     justify-content: space-around;
 }
 
+
 .link {
-    padding: 10px 65px;
+    /*Flex 1 per fare di grandezza uguale*/
+    flex: 1;
+    padding: 10px 0px;
     border-radius: 2px;
+    /*Per centrare i link*/
+    display: flex;
+    justify-content: center;
 }
 
 .link a {
@@ -122,6 +130,8 @@ footer {
     color: white;
 }
 
+
+/*Questo magari è da spostare in contact.css*/
 .hero-image-contact-page {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
     url(/assets/img/ratto.JPG);
@@ -181,6 +191,7 @@ textarea {
     padding: 8px 4px;
 }
 
+/*Fin qui è per la pagina dei contatti*/
 
 
 /*Responsive tablet breakpoints*/
@@ -191,12 +202,90 @@ textarea {
         font-size: 18px;
         line-height: 1.4rem;
     }
-
-    .a {
-        transition-duration: 0.35s;
+    
+    .quote-hero-image {
+        height: 50%;
     }
 
+    /*
+    Fare la transition morbida
+    Scurisce il bottone con hover */
     .link:hover{
         background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
     }
+
+    
+}
+
+/*Responsive laptops breakpoints*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .paragraph {
+        width: 50%;
+        margin: 40px auto;
+        font-size: 20px;
+        line-height: 1.4rem;
+    }
+    
+    .hero-image{
+        height: 90%;
+    }
+
+    .quote-hero-image {
+        height: 60%;
+    }
+
+    /*Effetto hover per la header*/
+    .link:hover{
+        background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
+    }
+
+    .icon {
+        width: 100px;
+    }
+
+    /*Responsive per la contact page*/
+    #contact-form {
+        width: 50%;
+    }
+
+
+}
+
+/*Responsive desktops breakpoints*/
+
+@media only screen and (min-width: 1025px) {
+    .paragraph {
+        width: 45%;
+        margin: 50px auto;
+        font-size: 22px;
+        line-height: 1.45rem;
+    }
+    
+    .hero-image{
+        height: 100%;
+    }
+
+    .quote-hero-image {
+        height: 70%;
+    }
+
+    .icon {
+        width: 120px;
+    }
+
+    /*Effetto hover per la header*/
+    .link:hover{
+        background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
+    }
+
+     /*Responsive per la contact page*/
+     #contact-form {
+        width: 40%;
+    }
+
+
 }
