@@ -4,10 +4,17 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-/** Per far apparire la hero img*/
+/* Per far apparire la hero img*/
     body, html {
     height: 100%;
 }
+
+
+/*Riordinare codice, magari anche in pagine diverse
+Controllare grandezza fonte in base al responsive*/
+
+
+
 
 /*Per anchor link preciso*/
 #about-me {
@@ -103,8 +110,18 @@
     text-align: center;
     font-size: 16px;
     margin: 20px 0px;
-    padding: 0px 25px;
+    /*padding: 0px 25px;*/
     line-height: 1.3rem;
+}
+
+.portfolio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.portfolio-img {
+    width: 200px;
 }
 
 footer {
