@@ -110,18 +110,28 @@ Controllare grandezza fonte in base al responsive*/
     text-align: center;
     font-size: 16px;
     margin: 20px 0px;
-    /*padding: 0px 25px;*/
+    padding: 0px 25px;
     line-height: 1.3rem;
 }
 
 .portfolio-box {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
 } 
 
 .portfolio-img {
     width: 200px;
+    margin: 0px 10px;
+}
+
+.portfolio-paragraph {
+    
+    font-size: 16px;
+    margin: 20px 0px;
+    padding-left: 8px;
+    line-height: 1.3rem;
 }
 
 footer {
@@ -225,14 +235,21 @@ textarea {
     }
 
     /*
-    Fare la transition morbida
+    
     Scurisce il bottone con hover */
     .link:hover{
         background-color: rgba(128, 128, 128, 0.666);
         transition: 0.4s;
     }
 
+    .portfolio-img {
+        width: 300px;
+        margin: 10px 10px;
+    }
     
+    .portfolio-paragraph {
+        font-size: 18px;
+    }
 }
 
 /*Responsive laptops breakpoints*/
@@ -263,10 +280,20 @@ textarea {
         width: 100px;
     }
 
+    .portfolio-img {
+        width: 400px;
+        margin: 10px 10px;
+    }
+    
+    .portfolio-paragraph {
+        font-size: 20px;
+    }
+
     /*Responsive per la contact page*/
     #contact-form {
         width: 50%;
     }
+
 
 
 }
@@ -291,6 +318,15 @@ textarea {
 
     .icon {
         width: 120px;
+    }
+
+    .portfolio-img {
+        width: 700px;
+        margin: 10px 10px;
+    }
+    
+    .portfolio-paragraph {
+        font-size: 22px;
     }
 
     /*Effetto hover per la header*/
