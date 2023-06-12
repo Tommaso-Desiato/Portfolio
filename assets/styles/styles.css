@@ -4,6 +4,12 @@
     padding: 0;
     scroll-behavior: smooth;
 }
+
+p {
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+
 /* Per far apparire la hero img*/
     body, html {
     height: 100%;
@@ -108,10 +114,8 @@ Controllare grandezza fonte in base al responsive*/
 
 .paragraph {
     text-align: center;
-    font-size: 16px;
     margin: 20px 0px;
     padding: 0px 25px;
-    line-height: 1.3rem;
 }
 
 .portfolio-box {
@@ -127,11 +131,21 @@ Controllare grandezza fonte in base al responsive*/
 }
 
 .portfolio-paragraph {
-    
-    font-size: 16px;
     margin: 20px 0px;
     padding-left: 8px;
-    line-height: 1.3rem;
+}
+
+.date-box,
+.description-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    
+}
+
+.small-icon {
+    width: 30px;
+    margin-right: 5px;
 }
 
 footer {
@@ -223,11 +237,14 @@ textarea {
 
 /*Responsive tablet breakpoints*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 18px;
+        line-height: 1.3rem;
+    }
+    
     .paragraph {
         width: 60%;
         margin: 20px auto;
-        font-size: 18px;
-        line-height: 1.4rem;
     }
     
     .quote-hero-image {
@@ -246,20 +263,19 @@ textarea {
         width: 300px;
         margin: 10px 10px;
     }
-    
-    .portfolio-paragraph {
-        font-size: 18px;
-    }
 }
 
 /*Responsive laptops breakpoints*/
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    p {
+        font-size: 20px;
+        line-height: 1.4rem;
+    }
+    
     .paragraph {
         width: 50%;
         margin: 40px auto;
-        font-size: 20px;
-        line-height: 1.4rem;
     }
     
     .hero-image{
@@ -285,9 +301,6 @@ textarea {
         margin: 10px 10px;
     }
     
-    .portfolio-paragraph {
-        font-size: 20px;
-    }
 
     /*Responsive per la contact page*/
     #contact-form {
@@ -301,11 +314,14 @@ textarea {
 /*Responsive desktops breakpoints*/
 
 @media only screen and (min-width: 1025px) {
+    p {
+        font-size: 22px;
+        line-height: 1.45rem;
+    }
+    
     .paragraph {
         width: 45%;
         margin: 50px auto;
-        font-size: 22px;
-        line-height: 1.45rem;
     }
     
     .hero-image{
@@ -323,10 +339,6 @@ textarea {
     .portfolio-img {
         width: 700px;
         margin: 10px 10px;
-    }
-    
-    .portfolio-paragraph {
-        font-size: 22px;
     }
 
     /*Effetto hover per la header*/
