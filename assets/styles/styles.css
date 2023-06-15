@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 p {
@@ -135,6 +136,11 @@ Controllare grandezza fonte in base al responsive*/
     padding-left: 8px;
 }
 
+.info-box {
+    padding: 0px 6px;
+    margin: 20px auto;
+}
+
 .date-box,
 .description-box {
     display: flex;
@@ -142,7 +148,6 @@ Controllare grandezza fonte in base al responsive*/
     padding: 10px 5px;
     
 }
-
 
 .small-icon {
     width: 30px;
@@ -247,11 +252,24 @@ textarea {
         width: 60%;
         margin: 20px auto;
     }
+
+    .portfolio-paragraph {
+        margin: 0px 10px;
+    }
+    
+    .info-box {
+        padding: 0px 6px;
+        margin: 20px auto;
+        width: 60%;
+    }
     
     .quote-hero-image {
         height: 50%;
     }
 
+    .send-button {
+        font-size: 18px;
+    }
     /*
     
     Scurisce il bottone con hover */
@@ -278,7 +296,17 @@ textarea {
         width: 50%;
         margin: 40px auto;
     }
+
+    .portfolio-paragraph {
+        margin: 0px 12px;
+    }
     
+    .info-box {
+        padding: 0px 8px;
+        margin: 20px auto;
+        width: 70%;
+    }
+
     .hero-image{
         height: 90%;
     }
@@ -287,6 +315,9 @@ textarea {
         height: 60%;
     }
 
+    .send-button {
+        font-size: 20px;
+    }
     /*Effetto hover per la header*/
     .link:hover{
         background-color: rgba(128, 128, 128, 0.666);
@@ -324,13 +355,23 @@ textarea {
         width: 45%;
         margin: 50px auto;
     }
+
+    .portfolio-paragraph {
+        margin: 0px 14px;
+    }
+    
+    .info-box {
+        padding: 0px 10px;
+        margin: 30px auto;
+        width: 40%;
+    }
     
     .hero-image{
         height: 100%;
     }
 
     .quote-hero-image {
-        height: 70%;
+        height: 90%;
     }
 
     .icon {
@@ -342,6 +383,9 @@ textarea {
         margin: 10px 10px;
     }
 
+    .send-button {
+        font-size: 22px;
+    }
     /*Effetto hover per la header*/
     .link:hover{
         background-color: rgba(128, 128, 128, 0.666);
