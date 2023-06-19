@@ -16,13 +16,6 @@ p {
     height: 100%;
 }
 
-
-/*Riordinare codice, magari anche in pagine diverse
-Controllare grandezza fonte in base al responsive*/
-
-
-
-
 /*Per anchor link preciso*/
 #about-me {
     position: absolute;
@@ -165,7 +158,7 @@ footer {
 
 .quote-hero-image {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/assets/img/11082022-DSC_3806.JPG);
+    url(/assets/img/war-painting.JPG);
     height: 30%;
     background-position: center;
     background-repeat: no-repeat;
