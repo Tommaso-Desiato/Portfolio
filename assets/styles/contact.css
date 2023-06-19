@@ -1,0 +1,217 @@
+.hero-image-contact-page {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(/assets/img/ratto.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#contact-form {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;   
+}
+
+
+.name-box, .email-box {
+    padding: 6px 6px 6px 30px;
+    border-radius: 3px;
+}
+
+.name-box {
+    background-color: #fff;
+    background-image: url(/assets/img/user.png);
+    background-size: 10px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.email-box {
+    background-color: #fff;
+    background-image: url(/assets/img/mail.png);
+    background-size: 10px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+}
+
+.send-button {
+    width: 30%;
+    align-self: center;
+    cursor: pointer;
+    padding: 8px 4px;
+}
+
+/*Responsive tablet breakpoints*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 18px;
+        line-height: 1.3rem;
+    }
+    
+    .paragraph {
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .portfolio-paragraph {
+        margin: 0px 10px;
+    }
+    
+    .info-box {
+        padding: 0px 6px;
+        margin: 20px auto;
+        width: 60%;
+    }
+    
+    .quote-hero-image {
+        height: 50%;
+    }
+
+    .send-button {
+        font-size: 18px;
+    }
+    /*
+    
+    Scurisce il bottone con hover */
+    .link:hover{
+        background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
+    }
+
+    .portfolio-img {
+        width: 300px;
+        margin: 10px 10px;
+    }
+}
+
+/*Responsive laptops breakpoints*/
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    p {
+        font-size: 20px;
+        line-height: 1.4rem;
+    }
+    
+    .paragraph {
+        width: 50%;
+        margin: 40px auto;
+    }
+
+    .portfolio-paragraph {
+        margin: 0px 12px;
+    }
+    
+    .info-box {
+        padding: 0px 8px;
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    .hero-image{
+        height: 90%;
+    }
+
+    .quote-hero-image {
+        height: 60%;
+    }
+
+    .send-button {
+        font-size: 20px;
+    }
+    /*Effetto hover per la header*/
+    .link:hover{
+        background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
+    }
+
+    .icon {
+        width: 100px;
+    }
+
+    .portfolio-img {
+        width: 400px;
+        margin: 10px 10px;
+    }
+    
+
+    /*Responsive per la contact page*/
+    #contact-form {
+        width: 50%;
+    }
+
+
+
+}
+
+/*Responsive desktops breakpoints*/
+
+@media only screen and (min-width: 1025px) {
+    p {
+        font-size: 22px;
+        line-height: 1.45rem;
+    }
+    
+    .paragraph {
+        width: 45%;
+        margin: 50px auto;
+    }
+
+    .portfolio-paragraph {
+        margin: 0px 14px;
+    }
+    
+    .info-box {
+        padding: 0px 10px;
+        margin: 30px auto;
+        width: 40%;
+    }
+    
+    .hero-image{
+        height: 100%;
+    }
+
+    .quote-hero-image {
+        height: 90%;
+    }
+
+    .icon {
+        width: 120px;
+    }
+
+    .portfolio-img {
+        width: 700px;
+        margin: 10px 10px;
+    }
+
+    .send-button {
+        font-size: 22px;
+    }
+    /*Effetto hover per la header*/
+    .link:hover{
+        background-color: rgba(128, 128, 128, 0.666);
+        transition: 0.4s;
+    }
+
+     /*Responsive per la contact page*/
+     #contact-form {
+        width: 40%;
+    }
+
+
+}

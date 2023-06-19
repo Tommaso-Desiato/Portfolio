@@ -178,69 +178,6 @@ footer {
 }
 
 
-/*Questo magari è da spostare in contact.css*/
-.hero-image-contact-page {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/assets/img/ratto.JPG);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-#contact-form {
-    width: 60%;
-    height: 50%;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: white;   
-}
-
-
-.name-box, .email-box {
-    padding: 6px 6px 6px 30px;
-    border-radius: 3px;
-}
-
-.name-box {
-    background-color: #fff;
-    background-image: url(/assets/img/user.png);
-    background-size: 10px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-}
-
-.email-box {
-    background-color: #fff;
-    background-image: url(/assets/img/mail.png);
-    background-size: 10px;
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-}
-
-textarea {
-    resize: none;
-    width: 100%;
-    height: 50px;
-    padding: 6px;
-}
-
-.send-button {
-    width: 30%;
-    align-self: center;
-    cursor: pointer;
-    padding: 8px 4px;
-}
-
-/*Fin qui è per la pagina dei contatti*/
-
-
 /*Responsive tablet breakpoints*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     p {
