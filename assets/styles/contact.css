@@ -1,6 +1,6 @@
 .hero-image-contact-page {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(/assets/img/ratto.JPG);
+    url(assets/img/ratto.JPG);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 
 .name-box {
     background-color: #fff;
-    background-image: url(/assets/img/user.png);
+    background-image: url(assets/img/user.png);
     background-size: 10px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@
 
 .email-box {
     background-color: #fff;
-    background-image: url(/assets/img/mail.png);
+    background-image: url(assets/img/mail.png);
     background-size: 10px;
     background-position: 10px 10px;
     background-repeat: no-repeat;
